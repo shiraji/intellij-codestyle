@@ -1,17 +1,22 @@
 # IntelliJ/AndroidStudio's code style
 
-Code style for IntelliJ-base IDE project.
+IntelliJ IDE project's default settings for my project.
 
-# Installation
+# How to install
 
-When create new project, do following commands.
+Create new project, and then do following commands.
 
 ```sh
 cd [IntelliJ Project HOME]
-curl -L "https://raw.githubusercontent.com/shiraji/intellij-codestyle/master/codeStyleSettings.xml" > .idea/codeStyleSettings.xml
-cat <<EOF > .gitignore
+mkdir -p .idea/inspectionProfiles/
+curl -L "https://raw.githubusercontent.com/shiraji/intellij-project-settings/master/codeStyleSettings.xml" > .idea/codeStyleSettings.xml
+curl -L "https://raw.githubusercontent.com/shiraji/intellij-project-settings/master/inspectionProfiles/Project_Default.xml" > .idea/inspectionProfiles/Project_Default.xml
+curl -L "https://raw.githubusercontent.com/shiraji/intellij-project-settings/master/inspectionProfiles/profiles_settings.xml" > .idea/inspectionProfiles/profiles_settings.xml
+curl -L "https://raw.githubusercontent.com/shiraji/intellij-project-settings/master/inspectionProfiles/shiraji.xml" > .idea/inspectionProfiles/shiraji.xml
+cat <<EOF >> .gitignore
 .idea/*
 !.idea/codeStyleSettings.xml
+!.idea/inspectionProfiles
 EOF
 ```
 
