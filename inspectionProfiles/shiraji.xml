@@ -15,7 +15,7 @@
     </inspection_tool>
     <inspection_tool class="ConstantNamingConvention" enabled="true" level="ERROR" enabled_by_default="true">
       <option name="onlyCheckImmutables" value="false" />
-      <option name="m_regex" value="[A-Z][A-Z_\d]*" />
+      <option name="m_regex" value="[A-Z][a-zA-Z_\d]*" />
       <option name="m_minLength" value="0" />
       <option name="m_maxLength" value="100" />
     </inspection_tool>
@@ -28,7 +28,7 @@
       <option name="ignoreSwitchStatementsWithDefault" value="false" />
     </inspection_tool>
     <inspection_tool class="EnumeratedClassNamingConvention" enabled="true" level="ERROR" enabled_by_default="true">
-      <option name="m_regex" value="[A-Z][A-Z_\d]*" />
+      <option name="m_regex" value="[A-Z][a-zA-Z_\d]*" />
       <option name="m_minLength" value="0" />
       <option name="m_maxLength" value="100" />
     </inspection_tool>
@@ -63,7 +63,7 @@
     </inspection_tool>
     <inspection_tool class="InstantiationOfUtilityClass" enabled="true" level="ERROR" enabled_by_default="true" />
     <inspection_tool class="InterfaceNamingConvention" enabled="true" level="ERROR" enabled_by_default="true">
-      <option name="m_regex" value="[A-Z][A-Z_\d]*" />
+      <option name="m_regex" value="[A-Z][a-zA-Z_\d]*" />
       <option name="m_minLength" value="0" />
       <option name="m_maxLength" value="100" />
     </inspection_tool>
