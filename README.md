@@ -4,7 +4,9 @@ IntelliJ IDE project's default settings for my project.
 
 # How to install
 
-Create new project, and then do following commands.
+* Create new project
+* Quit IntelliJ
+* Do following commands.
 
 ```sh
 cd [IntelliJ Project HOME]
