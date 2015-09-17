@@ -16,9 +16,12 @@ curl -L "https://raw.githubusercontent.com/shiraji/intellij-project-settings/mas
 curl -L "https://raw.githubusercontent.com/shiraji/intellij-project-settings/master/inspectionProfiles/profiles_settings.xml" > .idea/inspectionProfiles/profiles_settings.xml
 curl -L "https://raw.githubusercontent.com/shiraji/intellij-project-settings/master/inspectionProfiles/shiraji.xml" > .idea/inspectionProfiles/shiraji.xml
 cat <<EOF >> .gitignore
-.idea/*
-!.idea/codeStyleSettings.xml
-!.idea/inspectionProfiles
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
 EOF
 ```
 
