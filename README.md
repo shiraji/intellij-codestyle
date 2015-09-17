@@ -20,6 +20,7 @@ cat <<EOF >> .gitignore
 /local.properties
 /.idea/workspace.xml
 /.idea/libraries
+/.idea/dictionaries
 .DS_Store
 /build
 EOF
