@@ -12,6 +12,7 @@ IntelliJ IDE project's default settings for my project.
 cd [IntelliJ Project HOME]
 mkdir -p .idea/inspectionProfiles/
 curl -L "https://raw.githubusercontent.com/shiraji/intellij-project-settings/master/codeStyleSettings.xml" > .idea/codeStyleSettings.xml
+curl -L "https://raw.githubusercontent.com/shiraji/intellij-project-settings/master/codeInsightSettings.xml" > .idea/codeInsightSettings.xml
 curl -L "https://raw.githubusercontent.com/shiraji/intellij-project-settings/master/inspectionProfiles/Project_Default.xml" > .idea/inspectionProfiles/Project_Default.xml
 curl -L "https://raw.githubusercontent.com/shiraji/intellij-project-settings/master/inspectionProfiles/profiles_settings.xml" > .idea/inspectionProfiles/profiles_settings.xml
 curl -L "https://raw.githubusercontent.com/shiraji/intellij-project-settings/master/inspectionProfiles/shiraji.xml" > .idea/inspectionProfiles/shiraji.xml
